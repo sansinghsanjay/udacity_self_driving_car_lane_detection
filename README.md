@@ -18,4 +18,3 @@
 	ii. If the position of lane get changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
 
 3. Following could be the improvements: Removing above shortcomings.
-# udacity_lane_detection
