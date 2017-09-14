@@ -2,6 +2,7 @@
 
 <p align="center">
 <figure>
+<figcaption>SAMPLES</figcaption>
 <figure>
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_input.gif"> <figcaption>INPUT</figcaption>
 </figure>
