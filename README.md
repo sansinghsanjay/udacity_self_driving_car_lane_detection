@@ -2,9 +2,13 @@
 
 <p align="center">
 <figure>
+<figure>
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_input.gif"> <figcaption>INPUT</figcaption>
+</figure>
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+<figure>
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif"> <figcaption>OUTPUT</figcaption>
+</figure>
 </figure>
 </p>
 
