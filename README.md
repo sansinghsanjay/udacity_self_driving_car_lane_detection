@@ -1,16 +1,9 @@
 # Udacity Self Driving Car Nanodegree: Lane Detection
 
 <p align="center">
-<figure>
-<figcaption>SAMPLES</figcaption>
-<figure>
-<img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_input.gif"> <figcaption>INPUT</figcaption>
-</figure>
+<img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_input.gif">
 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-<figure>
-<img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif"> <figcaption>OUTPUT</figcaption>
-</figure>
-</figure>
+<img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif">
 </p>
 
 ## Finding Lane Lines on the Road
