@@ -9,7 +9,10 @@
 </p>
 
 ## Introduction
-This project is for detecting lanes on road for self driving car. Above GIF images are showing the sample input and output of this project.
+This project is for detecting lanes on road for self driving cars. Above GIF images are showing the sample input (image on left) and output (image on right) of this project.
+
+## Dataset
+
 
 ## Finding Lane Lines on the Road
 
