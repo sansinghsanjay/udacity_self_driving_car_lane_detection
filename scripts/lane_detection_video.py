@@ -1,7 +1,9 @@
+# ******************
+# PYTHON VER: 3.5.2
+# ******************
 # libraries
 import numpy as np
 from moviepy.editor import VideoFileClip
-#from IPython.display import HTML
 import os
 import cv2
 
