@@ -8,6 +8,9 @@
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif">
 </p>
 
+## Introduction
+This project is for detecting lanes on road for self driving car. Above GIF images are showing the sample input and output of this project.
+
 ## Finding Lane Lines on the Road
 
 1. Follow is the flow of program for detection of lane lines on road:
