@@ -11,7 +11,8 @@
 ## Introduction
 This project is for detecting lanes on road for self driving cars. Above GIF images are showing the sample input (image on left) and output (image on right) of this project.
 
-## Dataset
+## Technologies Used
+Python-3.5.2 and OpenCV-3.0.0 are used here. 
 
 
 ## Finding Lane Lines on the Road
