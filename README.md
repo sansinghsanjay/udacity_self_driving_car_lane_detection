@@ -16,19 +16,22 @@ Above GIF images are showing sample input (at left side) and sample output (at r
 ## Introduction
 
 ### Self Driving Cars
-Self Driving Cars are unmanned ground vehicles also known as Autonomus Cars, Driverless Cars, Robotic Cars.
+Self Driving Cars are unmanned ground vehicles, also known as Autonomus Cars, Driverless Cars, Robotic Cars.
 
 ### Technologies Used
 Following are the technologies used by these Self Driving Cars to navigate:
-	i. Computer Vision to recognize/classify near by objects.
+	i. Computer Vision and Machine Learning (AI) to find path, to classify traffic signs, etc.
 	ii. Sensor Fusion to sense the surrounding moving vehicles.
 	iii. Machine Learning (Artificial Intelligence) for decision making.
 
 ### Why "Lane Detection"?
-A simple traffic rule says that every vehicle should run in its own lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane.
+A simple traffic rule says that every vehicle should run in its own lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane and hence prevents from accidents.
 
-Self Driving Cars uses Computer Vision to identify the path on which these cars/vehicles has to navigate. And Computer Vision uses symbolic information from image using techniques from geometry, physics, statistics and information theory. Thus, marking lanes on road helps autonomus vehicles to navigate safely.
+Self Driving Cars uses Computer Vision to find the path on which these cars/vehicles have to navigate. Computer Vision uses symbolic information from image using techniques from geometry, physics, statistics and information theory.
 
+
+## Programming Language
+In this project Python-3.5.2 is used with OpenCV-3.0.
 
 ## Finding Lane Lines on the Road
 
