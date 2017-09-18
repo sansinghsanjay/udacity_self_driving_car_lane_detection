@@ -8,11 +8,26 @@
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif">
 </p>
 
-## Introduction
-This project is for detecting lanes on road for self driving cars. Above GIF images are showing the sample input (image on left) and output (image on right) of this project.
+## Objective
+This project is for identifying and marking lane lines on the road using OpenCV for given images and videos.
 
-## Technologies Used
-Python-3.5.2 and OpenCV-3.0.0 are used here. 
+Above GIF images are showing sample input (at left side) and sample output (at right side) using Python and OpenCV.
+
+## Introduction
+
+### Self Driving Cars
+Self Driving Cars are unmanned ground vehicles also known as Autonomus Cars, Driverless Cars, Robotic Cars.
+
+### Technologies Used
+Following are the technologies used by these Self Driving Cars to navigate:
+	i. Computer Vision to recognize/classify near by objects.
+	ii. Sensor Fusion to sense the surrounding moving vehicles.
+	iii. Machine Learning (Artificial Intelligence) for decision making.
+
+### Why "Lane Detection"?
+A simple traffic rule says that every vehicle should run in its own lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane.
+
+Self Driving Cars uses Computer Vision to identify the path on which these cars/vehicles has to navigate. And Computer Vision uses symbolic information from image using techniques from geometry, physics, statistics and information theory. Thus, marking lanes on road helps autonomus vehicles to navigate safely.
 
 
 ## Finding Lane Lines on the Road
