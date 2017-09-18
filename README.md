@@ -11,7 +11,7 @@
 ## Objective
 This project is for identifying and marking lane lines on the road.
 
-Above GIF images are showing sample input (at left side) and sample output (at right side) obtained by using Python and OpenCV.
+Above GIF images are showing sample input (at left side) and sample output (at right side) obtained by using Python and OpenCV (Open Computer Vision).
 
 ## Introduction
 
@@ -32,9 +32,9 @@ Self Driving Cars uses Computer Vision to find the path on which these cars/vehi
 
 ## Programming Language
 In this project, Python-3.5.2 is used with following packages:
-1. numpy-1.13.0
-2. moviepy-0.2.3.2
-3. cv2-3.0.0
+1. numpy - 1.13.0
+2. moviepy - 0.2.3.2
+3. cv2 - 3.0.0 (Computer Vision)
 
 ## Finding Lane Lines on the Road
 
