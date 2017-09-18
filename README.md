@@ -44,27 +44,34 @@ In this project, Python-3.5.2 is used with following packages:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/input_image.png">
 </p>
+
 2. Convert image into a gray image as it is easy to extract edges from a single-channel (gray) image:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/gray_image.png">
 </p>
+
 3. Apply Gaussian Blur on gray image to remove noise:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/blur_gray.png">
 </p>
+
 4. Apply Canny Edge Detection Operator on smoothed (noise removed) gray image with some low and high threshold values. This will return an image with only detected edges:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/canny_edge.png">
 </p>
+
 5. As we have to identify only lanes on road, so a mask is applied to get only region of interest:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/region_of_interest.png">
 </p>
+
 6. Then, Hough Transform is applied to get lines in above obtained image.
+
 7. Some mathematical operations applied to interpolate lines at positions where they are missing:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/interpolate.png">
 </p>
+
 8. Finally, a weighted sum of our input image and above image is performed to get final output:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/result.png">
