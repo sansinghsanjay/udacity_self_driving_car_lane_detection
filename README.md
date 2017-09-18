@@ -16,7 +16,8 @@ Above GIF images are showing sample input (at left side) and sample output (at r
 ## Introduction
 
 ### Self Driving Cars
-Self Driving Cars are unmanned ground vehicles, also known as Autonomus Cars, Driverless Cars, Robotic Cars.
+Self Driving Cars are unmanned ground vehicles, also known as Autonomus Cars, Driverless Cars, Robotic Cars. 
+[image URL]
 
 ### Technologies Used
 Following are the technologies used by these Self Driving Cars to navigate:
@@ -36,18 +37,15 @@ In this project, Python-3.5.2 is used with following packages:
 2. moviepy - 0.2.3.2
 3. cv2 - 3.0.0 (Computer Vision)
 
-## Finding Lane Lines on the Road
-
-1. Follow is the flow of program for detection of lane lines on road:
-	i. Function "main_process" gets one by one each frame of a video.
-	ii. This function passes the obtained image frame to functon "grayscale" to get the gray scale image.
-	iii. Then I applied gaussian blur on the obtained gray scale image to remove noise.
-	iv. Then I applied canny edge detection function on smoothed gray scale image to detect all edges present in image.
-	v. As we have to mark only region having lane lines, so I applied function 'region_of_interest' to get region having lines of that lane on which car is running.
-	vi. Then I applied Hough Transform to get lines from canny edges.
-	vii. Then moved to draw_lines function, this function is drawing lane lines on image. While drawing lines, it is also extrapolating lines by using the slope and intercept of lines so that we can see one continuous line on left side and one continuous line on right side.
-	viii. At last there is weighted sum of image and line image (image having lane lines) to make sure that this lane lines doesn't hide other components on given image.
-	ix. All this image frames are collecting and making a video and saving them.
+## Algorithm
+1. Read an image: [image URL]
+2. Convert image into a gray image as it is easy to extract edges from a single-channel (gray) image: [image URL]
+3. Apply Gaussian Blur on gray image to remove noise: [image URL]
+4. Apply Canny Edge Detection Operator on smoothed (noise removed) gray image with some low and high threshold values. This will return an image with only detected edges: [image URL]
+5. As we have to identify only lanes on road, so a mask is applied to get only region of interest: [image URL]
+6. Then, Hough Transform is applied to get lines in above obtained image.
+7. Some mathematical operations applied to interpolate lines at positions where they are missing: [image URL]
+8. Finally, a weighted sum of our input image and above image is performed to get final output: [image URL]
 
 ## Limitations
 1. On turns, this code is giving weired output.
