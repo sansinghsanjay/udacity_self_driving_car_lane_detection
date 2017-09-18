@@ -51,10 +51,7 @@ In this project, Python-3.5.2 is used with following packages:
 To use this project:
 1. Clone this github repository.
 2. Make "scripts" sub-directory as present-working-directory.
-3. Run this command in terminal:
-```
-python main.py
-```
+3. Run this command in terminal: ```python main.py```
 
 ## Limitations
 1. On turns, this code is giving weired output.
