@@ -47,6 +47,15 @@ In this project, Python-3.5.2 is used with following packages:
 7. Some mathematical operations applied to interpolate lines at positions where they are missing: [image URL]
 8. Finally, a weighted sum of our input image and above image is performed to get final output: [image URL]
 
+## How To Use?
+To use this project:
+1. Clone this github repository.
+2. Make "scripts" sub-directory as present-working-directory.
+3. Run this command in terminal:
+```
+python main.py
+```
+
 ## Limitations
 1. On turns, this code is giving weired output.
 2. If the position of lane get changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
