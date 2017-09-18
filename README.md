@@ -49,8 +49,6 @@ In this project, Python-3.5.2 is used with following packages:
 	viii. At last there is weighted sum of image and line image (image having lane lines) to make sure that this lane lines doesn't hide other components on given image.
 	ix. All this image frames are collecting and making a video and saving them.
 
-2. Following could be the shortcomings of this code:
-	i. On turns, this code is giving weired output.
-	ii. If the position of lane get changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
-
-3. Following could be the improvements: Removing above shortcomings.
+## Limitations
+1. On turns, this code is giving weired output.
+2. If the position of lane get changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
