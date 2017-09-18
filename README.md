@@ -52,6 +52,7 @@ To use this project:
 1. Clone this github repository.
 2. Make "scripts" sub-directory as present-working-directory.
 3. Run this command in terminal: ```python main.py```
+Or simply use ipython notebook under "scripts" sub-directory.
 
 ## Limitations
 1. On turns, this code is giving weired output.
