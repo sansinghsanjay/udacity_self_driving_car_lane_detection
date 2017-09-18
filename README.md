@@ -61,6 +61,7 @@ In this project, Python-3.5.2 is used with following packages:
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/region_of_interest.png">
 </p>
 6. Then, Hough Transform is applied to get lines in above obtained image.
+
 7. Some mathematical operations applied to interpolate lines at positions where they are missing:
 <p align="center">
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/interpolate.png">
