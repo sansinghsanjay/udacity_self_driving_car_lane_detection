@@ -31,7 +31,10 @@ Self Driving Cars uses Computer Vision to find the path on which these cars/vehi
 
 
 ## Programming Language
-In this project Python-3.5.2 is used with OpenCV-3.0.
+In this project, Python-3.5.2 is used with following packages:
+	i. numpy-1.13.0
+	ii. moviepy-0.2.3.2
+	iii. cv2-3.0.0
 
 ## Finding Lane Lines on the Road
 
