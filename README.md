@@ -22,7 +22,7 @@ Self Driving Cars are unmanned ground vehicles, also known as Autonomus Cars, Dr
 Following are the technologies used by these Self Driving Cars to navigate:
 1. Computer Vision and Machine Learning (AI) to find path, to classify traffic signs, etc.
 2. Sensor Fusion to sense the surrounding moving vehicles.
-3. Machine Learning (Artificial Intelligence) for decision making.
+3. Machine Learning (AI) for decision making.
 
 ### Why "Lane Detection"?
 A simple traffic rule says that every vehicle should run in its own lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane and hence prevents from accidents.
