@@ -9,7 +9,7 @@
 </p>
 
 ## Objective
-This project is for identifying and marking lane lines on the road using OpenCV for given images and videos.
+This project is for identifying and marking lane lines on the road using OpenCV.
 
 Above GIF images are showing sample input (at left side) and sample output (at right side) using Python and OpenCV.
 
