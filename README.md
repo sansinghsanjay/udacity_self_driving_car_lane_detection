@@ -9,7 +9,7 @@
 </p>
 
 ## Objective
-This project is for marking lane lines on road so that Self Driving Cars can run on correct path.
+This project is for marking lanes on road so that Self Driving Cars can run on correct path.
 
 In this project, some hard Computer Vision issues are not considered. These issues are considered and an attempt is made to solve them in another project: <a href="https://github.com/sansinghsanjay/udacity_self_driving_car_advanced_lane_detection">Udacity Self Driving Car Nanodegree: Advanced Lane Detection</a>
 
