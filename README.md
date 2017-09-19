@@ -87,4 +87,6 @@ Or simply use ipython notebook under "scripts" sub-directory.
 
 ## Limitations
 1. On turns, this code is giving weired output.
-2. If the position of lane get changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
+2. If the position of lane gets changed (like width of lanes), then this code may not be able to detect the lanes even if lanes are straight. This is because region of interest is hard coded here, its not generic.
+3. This technique of lane detection would not work if light from sun or headlight of another vehicle falls on camera of self driving car. 
+4. In this technique, its an assumption that roads are flat and have clearly visible lane marks.
