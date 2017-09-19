@@ -8,12 +8,14 @@
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/sample_input_output/sample_output.gif">
 </p>
 
+
 ## Objective
 This project is for marking lanes on road so that Self Driving Cars can run on correct path.
 
 In this project, some hard Computer Vision issues are not considered. These issues are considered and an attempt is made to solve them in another project: <a href="https://github.com/sansinghsanjay/udacity_self_driving_car_advanced_lane_detection">Udacity Self Driving Car Nanodegree: Advanced Lane Detection</a>
 
 Above GIF images are showing sample input (at left side) and sample output (at right side) of this project, obtained by using Python and OpenCV (Open Computer Vision).
+
 
 ## Introduction
 
@@ -30,7 +32,7 @@ Following are the technologies used by these Self Driving Cars to navigate:
 3. Machine Learning (AI) for decision making.
 
 ### Why "Lane Detection"?
-A simple traffic rule says that every vehicle should run in its own lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane and hence prevents from accidents.
+A simple traffic rule says that every vehicle should run in its own (directional) lane. If it goes in other lane then chances of accident increases. Thus, lane marking is an important task which prevents these autonomus vehicles from entering in other lane and hence prevents from accidents.
 
 Self Driving Cars uses Computer Vision to find the path on which these cars/vehicles have to navigate. Computer Vision uses symbolic information from image using techniques from geometry, physics, statistics and information theory.
 
@@ -40,6 +42,7 @@ In this project, Python-3.5.2 is used with following packages:
 1. numpy - 1.13.0
 2. moviepy - 0.2.3.2
 3. cv2 - 3.0.0 (Computer Vision)
+
 
 ## Algorithm
 1. Read an image:
@@ -79,6 +82,7 @@ In this project, Python-3.5.2 is used with following packages:
 <img src="https://github.com/sansinghsanjay/udacity_self_driving_car_lane_detection/blob/master/images/result.png">
 </p>
 
+
 ## How To Use?
 To use this project:
 1. Clone this github repository.
@@ -86,6 +90,7 @@ To use this project:
 3. Run this command in terminal: ```python main.py```
 
 Or simply use ipython notebook under "scripts" sub-directory.
+
 
 ## Limitations
 1. On turns, this code is giving weired output.
