@@ -13,7 +13,7 @@ This project is for marking lanes on road so that Self Driving Cars can run on c
 
 In this project, some hard Computer Vision issues are not considered. These issues are considered and an attempt is made to solve them in another project: <a href="https://github.com/sansinghsanjay/udacity_self_driving_car_advanced_lane_detection">Udacity Self Driving Car Nanodegree: Advanced Lane Detection</a>
 
-Above GIF images are showing sample input (at left side) and sample output (at right side) obtained by using Python and OpenCV (Open Computer Vision).
+Above GIF images are showing sample input (at left side) and sample output (at right side) of this project, obtained by using Python and OpenCV (Open Computer Vision).
 
 ## Introduction
 
